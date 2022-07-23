@@ -1,6 +1,6 @@
 # valor da variavel somar será usado dentro de todo context e em todos it que estiverem dentro do mesmo context
 
-describe 'calculos' do
+describe 'calculos', :teste_calculo  do
   context'dois numeros' do
     let(:somar) {5+5}
     let(:subtrair) {somar-2}
