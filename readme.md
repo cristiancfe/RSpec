@@ -9,3 +9,4 @@
 ####  --require spec_helper
 ####  --tag ~nao_teste_tag
 #### Quando rodar rspec ele não executa/roda o que foi configurado para não rodar
+
