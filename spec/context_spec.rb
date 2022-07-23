@@ -1,5 +1,5 @@
-describe 'soma' do
-  context 'somar dosi numeros' do
+describe 'soma', :teste_soma do
+  context 'somar dois numeros' do
     it 'negativos' do
       total = -3 + (-3)
       expect(total).to eq -6
